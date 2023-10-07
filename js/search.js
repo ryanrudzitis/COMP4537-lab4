@@ -9,7 +9,7 @@ button.addEventListener("click", () => {
   const message = document.querySelector("#message");
 
   // get the values of the text boxes
-  const word = word_text_box.value;
+  const word = word_text_box.value.toLowerCase();
 
   // create a new XMLHttpRequest object
   const xhttp = new XMLHttpRequest();
